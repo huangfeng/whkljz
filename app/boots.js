@@ -14,6 +14,7 @@ define([
     "jqueryOnePageNav",
     "jqueryAppear",
     "jqueryCountTo",
+    "jqueryOwlCarousel",
     "app",
     "routers"
 ], function (require, ng) {

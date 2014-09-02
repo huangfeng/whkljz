@@ -9,5 +9,6 @@ define([
     "./layout/NavController",
     "./home/TitleController",
     "./home/AboutController",
-    "./home/ServicesController"
+    "./home/ServicesController",
+    "./home/GuideController"
 ], function () {});

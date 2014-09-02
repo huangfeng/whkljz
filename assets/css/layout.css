@@ -1657,6 +1657,7 @@ h4.panel-title a i {
 
 	.owl-carousel.column .item {
 		margin:20px 10px;
+        width: 550px;
 	}
 
 	.owl-carousel.column .item .social {
@@ -1667,7 +1668,8 @@ h4.panel-title a i {
 	.owl-carousel.column .top-image {
 		text-align:center;
 		overflow:hidden;
-		display:inline-block;
+        float: left;
+        display: inline-block;
 		height:200px; width:208px;
 		-webkit-border-radius: 6px;
 		   -moz-border-radius: 6px;
@@ -1679,9 +1681,28 @@ h4.panel-title a i {
 		height:auto;
 	}
 
+    .owl-carousel.column h3 {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .detailInfo {
+        display: inline-block;
+        width: 300px;
+        height: 170px;
+    }
+
+    .detailInfo p {
+        margin-left: 10px;
+    }
+
+    .detailInfo a {
+        float: right;
+    }
 
 	.color .owl-theme .owl-controls .owl-page span {
 		background:#fff;
+        float: left;
 	}
 
 	/* 

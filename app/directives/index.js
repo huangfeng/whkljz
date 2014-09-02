@@ -6,6 +6,7 @@ define([
     "./layout/NiceScrollDirective",
     "./layout/FitVidsDirective",
     "./layout/OnePageNavDirective",
+    "./layout/OwlCarouselDirective",
     "./home/CountToDirective",
     "./home/VideoBgDirective"
 ], function () {});

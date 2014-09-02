@@ -55,7 +55,7 @@
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url("grabbing.png"/*tpa=http://stepofweb.gweb.io/.templates/Deusone/v1.1/HTML/assets/plugins/jquery-owl-carousel/grabbing.png*/) 8 8, move;
+    cursor:url("grabbing.png") 8 8, move;
 }
 
 /* fix */

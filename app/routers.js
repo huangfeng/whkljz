@@ -37,6 +37,11 @@ define(
                         "services": {
                             templateUrl: "app/views/home/services.html",
                             controller: "ServicesController"
+                        },
+
+                        "guide": {
+                            templateUrl: "app/views/home/guide.html",
+                            controller: "GuideController"
                         }
 
                     }

@@ -22,6 +22,7 @@ require.config({
             "jqueryOnePageNav": "../assets/plugins/jquery-onepage-nav/jquery.nav.min",
             "jqueryAppear": "../assets/plugins/jquery-appear/jquery.appear",
             "jqueryCountTo": "../assets/plugins/jquery-countTo/jquery.countTo",
+            "jqueryOwlCarousel": "../assets/plugins/jquery-owl-carousel/owl.carousel.min",
             "library": "../assets/plugin"
         },
 
@@ -62,7 +63,11 @@ require.config({
             },
             "jqueryCountTo": {
                 deps: ["jquery"]
+            },
+            "jqueryOwlCarousel": {
+                deps: ["jquery"]
             }
+
         },
 
         priority: [

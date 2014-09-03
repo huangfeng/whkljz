@@ -23,8 +23,8 @@ require.config({
             "jqueryAppear": "../assets/plugins/jquery-appear/jquery.appear",
             "jqueryCountTo": "../assets/plugins/jquery-countTo/jquery.countTo",
             "jqueryOwlCarousel": "../assets/plugins/jquery-owl-carousel/owl.carousel.min",
-            "baiduMap": "http://api.map.baidu.com/getscript?v=2.0&ak=36a51a026506c89523f62c21890bb300&services=&t=20140902110118",
-            "baiduMapSearchInfoWindow": "http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min",
+            "baiduMap": "../assets/plugins/baidumap/baiduMap",
+            "baiduMapSearchInfoWindow": "../assets/plugins/baidumap/SearchInfoWindow",
             "library": "../assets/plugin"
         },
 

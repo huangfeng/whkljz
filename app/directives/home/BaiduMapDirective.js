@@ -12,11 +12,11 @@ define(["directives/module"], function(app) {
             map.enableScrollWheelZoom();
 
             var guangguDetail = '<div style="margin:0;line-height:20px;padding:2px;">' +
-                '<img src="img/shangdu.jpg" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
+                '<img src="assets/images/preview/address/new_shangdu.jpg" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
                 '地址：光谷广场世界城新尚都21420室<br/>联系人：庞老师  涂老师<br/>电话：(027)87791032， 13995680722， 13638623778<br/></div>';
             var guangguInfoWindow = null;
             guangguInfoWindow = new BMapLib.SearchInfoWindow(map, guangguDetail, {
-                title  : "康乐家政光谷店",      //标题
+                title  : "康乐家政光谷旗舰店",      //标题
                 width  : 290,             //宽度
                 height : 105,              //高度
                 panel  : "panel",         //检索结果面板
@@ -35,7 +35,7 @@ define(["directives/module"], function(app) {
             guanggu.setLabel(label);
 
             var jiedaokouDetail = '<div style="margin:0;line-height:20px;padding:2px;">' +
-                '<img src="img/weilaicheng.jpg" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
+                '<img src="assets/images/preview/address/weilaicheng.png" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
                 '地址：街道口未来城C座1112室<br/>联系人：吴老师<br/>电话：(027)87748868， 18908648300<br/></div>';
             var jiedaokouInfoWindow = null;
             jiedaokouInfoWindow = new BMapLib.SearchInfoWindow(map, jiedaokouDetail, {

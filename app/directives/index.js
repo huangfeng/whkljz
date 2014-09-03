@@ -9,5 +9,6 @@ define([
     "./layout/OwlCarouselDirective",
     "./layout/StellarDirective",
     "./home/CountToDirective",
-    "./home/VideoBgDirective"
+    "./home/VideoBgDirective",
+    "./home/BaiduMapDirective"
 ], function () {});

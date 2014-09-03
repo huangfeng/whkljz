@@ -47,6 +47,11 @@ define(
                         "team": {
                             templateUrl: "app/views/home/team.html",
                             controller: "TeamController"
+                        },
+
+                        "contact": {
+                            templateUrl: "app/views/home/contact.html",
+                            controller: "ContactController"
                         }
 
                     }

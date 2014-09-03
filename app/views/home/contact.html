@@ -1,0 +1,67 @@
+<header>
+    <h2 x-appear x-data-animation="bounceIn">联系我们</h2>
+    <h3>两个直营门店，服务覆盖整个武昌、洪山、光谷</h3>
+</header>
+
+<!-- team description -->
+<article class="container text-left">
+    <div id="allmap" class="container" style="overflow:hidden;zoom:1;position:relative;height:400px;">
+        <div id="map" style="height:100%;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;" x-baidu-map></div>
+        <div id="showPanelBtn" style="position:absolute;font-size:14px;top:50%;margin-top:-95px;right:0px;width:20px;padding:10px 10px;color:#999;cursor:pointer;text-align:center;height:170px;background:rgba(255,255,255,0.9);-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;font-family:'微软雅黑';font-weight:bold;">显示检索结果面板<br/>
+            &lt;</div>
+        <div id="panelWrap" style="width:0px;position:absolute;top:0px;right:0px;height:100%;overflow:auto;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;">
+            <div style="width:20px;height:200px;margin:-100px 0 0 -10px;color:#999;position:absolute;opacity:0.5;top:50%;left:50%;">此处用于展示结果面板</div>
+            <div id="panel" style="position:absolute;"></div>
+        </div>
+    </div>
+</article>
+
+<article class="container">
+
+    <!-- services columns -->
+    <div class="serviceColumnContainer">
+        <div class="row">
+            <!-- column left -->
+            <div class="col-md-6 text-left">
+
+                <!-- service #1 -->
+                <div class="serviceColumn animate_from_left" x-appear x-data-animation-direction="animate_from_left">
+                    <div class="serviceColumn media">
+                        <a class="external pull-left" href="#">
+                            <img class="img-circle" src="assets/images/preview/address/new_shangdu.png" title="新尚都" alt="新尚都" />
+                        </a>
+                        <div class="media-body description">
+                            <p><strong>康乐家政光谷旗舰店</strong></p>
+                            <p class="text-muted"><i class="fa fa-building"></i> 地址：武汉市洪山区珞瑜路光谷广场东世界城新尚都21420室</p>
+                            <p class="text-muted"><i class="fa fa-user"></i> 联系人：庞老师  涂老师</p>
+                            <p class="text-muted"><i class="fa fa-fax"></i> 24小时服务热线：027-87791032</p>
+                            <p class="text-muted"><i class="fa fa-phone"></i> 服务电话：13995680722  13638623778</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- column right -->
+            <div class="col-md-6 text-left animate_from_right" x-appear x-data-animation-direction="animate_from_right">
+
+                <!-- service #3 -->
+                <div class="serviceColumn media">
+                    <a class="external pull-left" href="#">
+                        <img class="img-circle" src="assets/images/preview/address/weilaicheng.png" title="未来城" alt="未来城" />
+                    </a>
+                    <div class="media-body description">
+                        <p><strong>康乐家政街道口店</strong></p>
+                        <p class="text-muted"><i class="fa fa-building"></i> 地址：武汉市洪山区街道口未来城C座1112室</p>
+                        <p class="text-muted"><i class="fa fa-user"></i> 联系人：吴老师</p>
+                        <p class="text-muted"><i class="fa fa-fax"></i> 24小时服务热线：027-87748868</p>
+                        <p class="text-muted"><i class="fa fa-phone"></i> 服务电话：18908648300</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /services columns -->
+
+</article>

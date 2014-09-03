@@ -15,6 +15,8 @@ define([
     "jqueryAppear",
     "jqueryCountTo",
     "jqueryOwlCarousel",
+    "baiduMap",
+    "baiduMapSearchInfoWindow",
     "app",
     "routers"
 ], function (require, ng) {

@@ -1657,7 +1657,6 @@ h4.panel-title a i {
 
 	.owl-carousel.column .item {
 		margin:20px 10px;
-        width: 550px;
 	}
 
 	.owl-carousel.column .item .social {
@@ -1684,6 +1683,11 @@ h4.panel-title a i {
     .owl-carousel.column h3 {
         display: inline-block;
         margin-left: 10px;
+    }
+
+    .owl-carousel.column .team-member {
+        display: block;
+        margin-left: 220px;
     }
 
     .detailInfo {
@@ -1892,8 +1896,7 @@ section.quote q {
 }
 
 .page-name .name i {
-	font-size:100px;
-	display:block;
+	font-size:30px;
 	margin-top:30px;
 }
 
@@ -1901,6 +1904,11 @@ section.quote q {
 	background:url("../images/overlay.png") repeat;
 	position:absolute;
 	left:0; top:0; right:0; bottom:0;
+}
+
+.page-name .detail {
+    font-size: 30px;
+    font-family: "Open Sans";
 }
 
 .fullsearch {

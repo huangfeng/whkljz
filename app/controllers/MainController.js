@@ -7,7 +7,6 @@ define(["controllers/module"], function(controllers) {
 
     return controllers.controller("MainController", ["$rootScope",
         function ($rootScope) {
-            // parallax mode
             $.stellar({
                 horizontalScrolling: false,
                 verticalOffset: 0

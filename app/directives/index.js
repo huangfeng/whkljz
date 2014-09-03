@@ -7,6 +7,7 @@ define([
     "./layout/FitVidsDirective",
     "./layout/OnePageNavDirective",
     "./layout/OwlCarouselDirective",
+    "./layout/StellarDirective",
     "./home/CountToDirective",
     "./home/VideoBgDirective"
 ], function () {});

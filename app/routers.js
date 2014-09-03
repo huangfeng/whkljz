@@ -42,6 +42,11 @@ define(
                         "guide": {
                             templateUrl: "app/views/home/guide.html",
                             controller: "GuideController"
+                        },
+
+                        "team": {
+                            templateUrl: "app/views/home/team.html",
+                            controller: "TeamController"
                         }
 
                     }

@@ -10,5 +10,6 @@ define([
     "./home/TitleController",
     "./home/AboutController",
     "./home/ServicesController",
-    "./home/GuideController"
+    "./home/GuideController",
+    "./home/TeamController"
 ], function () {});

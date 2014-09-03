@@ -10,18 +10,86 @@
 </section>
 
 <!-- SERVICE NAME -->
-<section id="serviceName" class="page-name parallax" data-stellar-background-ratio="0.5" style="background-image:url(assets/images/preview/slider/parallax_bg.jpg);">
+<section id="serviceName" class="page-name parallax" x-stellar data-stellar-background-ratio="0.5" style="background-image:url(assets/images/preview/slider/parallax_bg.jpg);">
     <span class="overlay"></span>
     <span class="name">
         <b>康乐家政</b>欢迎您<b>!</b>
-        <i class="fa fa-arrows-alt"></i>
+        <div class="detail"><i class="fa fa-fax"></i>  24小时服务电话：027-87791032  87748868</div>
     </span>
 </section>
 
 <!-- SERVICE LIST -->
 <section id="services" ui-view="services">
 </section>
-
 <!-- SERVICE LIST -->
+
+<!-- BRANDS -->
+<section id="brands">
+    <div class="container">
+        <!-- BRANDS CAROUSEL -->
+        <div class="owl-carousel" x-owl-carousel x-data-navigation="false" x-data-singleitem="false" x-data-autoplay="true" x-appear x-data-animation="fadeIn">
+            <div class="item dragCursor"><img src="assets/images/preview/brands/1.png" height="60" alt="保利花园" /></div>
+            <div class="item dragCursor"><img src="assets/images/preview/brands/2.png" height="60" alt="长城坐标城" /></div>
+            <div class="item dragCursor"><img src="assets/images/preview/brands/3.png" height="60" alt="成熙英语" /></div>
+            <div class="item dragCursor"><img src="assets/images/preview/brands/4.png" height="60" alt="光谷新世界" /></div>
+            <div class="item dragCursor"><img src="assets/images/preview/brands/5.png" height="60" alt="江南家园" /></div>
+            <div class="item dragCursor"><img src="assets/images/preview/brands/6.png" height="60" alt="谓语城" /></div>
+            <div class="item dragCursor"><img src="assets/images/preview/brands/7.png" height="60" alt="金地太阳城" /></div>
+        </div>
+    </div>
+</section>
+<!-- BRANDS -->
+
+<!-- GUIDE -->
 <section id="guide" ui-view="guide">
+</section>
+<!-- GUIDE -->
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="color parallax" x-stellar data-stellar-background-ratio="0.5" style="background-image:url(assets/images/preview/slider/parallax_bg.jpg)">
+    <div class="container">
+        <!-- TESTIMONIALS -->
+        <div class="owl-carousel"  x-owl-carousel x-data-navigation="false" x-data-singleitem="true" x-data-autoplay="true" x-appear x-data-animation="fadeIn">
+            <!-- testimonial 1 -->
+            <div class="item dragCursor">
+                <q>
+                    公司的成立很简单。2008年，两个老友说：要不自己做点什么吧。好吧!就开始了！公司一开就开到了现在。
+                </q>
+            </div>
+            <!-- testimonial 2 -->
+            <div class="item dragCursor">
+                <q>
+                    我们从20多岁的小女生做到30多岁的小妇人。除了身材一高一矮一胖一瘦没有变化，心态和历练都还是有所增长的。
+                </q>
+            </div>
+            <!-- testimonial 3 -->
+            <div class="item dragCursor">
+                <q>
+                    从开始一年接单量惨淡，到现在有时忙也忙不过来；从开始的各种不淡定，但现在很多事情还算处变不惊；从开始的各种委屈不理解到现在发现每件事情都有自己的道理。
+                </q>
+            </div>
+            <!-- testimonial 4 -->
+            <div class="item dragCursor">
+                <q>
+                    要调整的永远都只是自己。伴随着欢笑的眼泪，成长或多或少都有吧；伴随着眼角眉梢日渐增长的皱纹，成熟或多或少都有吧。
+                </q>
+            </div>
+            <!-- testimonial 5 -->
+            <div class="item dragCursor">
+                <q>
+                    希望长期开下去吧。毕竟我们都还算年轻。
+                </q>
+                <!-- testimonial author -->
+                <cite>
+                    <strong>康乐家政</strong> / 我们正创业
+                </cite>
+            </div>
+        </div>
+        <!-- /TESTIMONIALS -->
+    </div>
+</section>
+<!-- /TESTIMONIALS -->
+
+<section id="team" ui-view="team">
+
 </section>

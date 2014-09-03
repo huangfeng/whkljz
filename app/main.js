@@ -19,7 +19,7 @@ require.config({
             "jqueryFitVids": "../assets/plugins/jquery-fitvids/jquery.fitvids.min",
             "jqueryEasing": "../assets/plugins/jquery-easing/jquery.easing.min",
             "jqueryScrollTo": "../assets/plugins/jquery-scrollto/jquery.scrollTo.min",
-            "jqueryOnePageNav": "../assets/plugins/jquery-onepage-nav/jquery.nav.min",
+            "jqueryOnePageNav": "../assets/plugins/jquery-onepage-nav/jquery.nav",
             "jqueryAppear": "../assets/plugins/jquery-appear/jquery.appear",
             "jqueryCountTo": "../assets/plugins/jquery-countTo/jquery.countTo",
             "jqueryOwlCarousel": "../assets/plugins/jquery-owl-carousel/owl.carousel.min",

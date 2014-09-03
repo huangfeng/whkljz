@@ -9,21 +9,53 @@
     <!-- NAV MENU -->
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul id="onepageNav" class="nav navbar-nav navbar-right" x-one-page-nav><!-- id="onepageNav" for homepage only -->
-            <li class="active"><a href="#about">关于我们</a></li>
-            <li><a href="#services">服务项目</a></li>
-            <li><a href="#guide">服务指南</a></li>
-            <li><a href="#team">关于团队</a></li>
-            <li class="dropdown">
-                <a class="external dropdown-toggle" href="#contact" data-toggle="dropdown">联系我们 <i class="fa fa-angle-down"></i></a>
+            <li class="active"><a ui-sref="main.home" jumpTo="#about" href="#">关于我们</a></li>
+            <li>
+                <a class="dropdown-toggle" data-toggle="dropdown" ui-sref="main.home" jumpTo="#services">服务项目 <i class="fa fa-angle-down"></i></a>
                 <ul class="dropdown-menu"><!-- dropdown menu -->
-                    <li><a class="external" href="blog-with-sidebar.html">With Sidebar</a></li>
-                    <li><a class="external" href="blog-with-sidebar-post.html">Post With Sidebar</a></li>
-                    <li><a class="external" href="blog-without-sidebar.html">Without Sidebar</a></li>
-                    <li><a class="external" href="blog-without-sidebar-post.html">Post Without Sidebar</a></li>
+                    <li><a class="external" href="blog-with-sidebar.html">钟点工服务</a></li>
+                    <li><a class="external" href="blog-with-sidebar-post.html">月嫂、育婴师服务</a></li>
+                    <li><a class="external" href="blog-without-sidebar.html">家庭保姆</a></li>
+                    <li><a class="external" href="blog-without-sidebar-post.html">开荒保洁</a></li>
+                </ul>
+            </li>
+            <li><a ui-sref="main.home" jumpTo="#guide">服务指南</a></li>
+            <li><a ui-sref="main.home" jumpTo="#team">关于团队</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" ui-sref="main.home" jumpTo="#contact" data-toggle="dropdown">联系我们 <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu"><!-- dropdown menu -->
+                    <li class="address">
+                        <div class="media">
+                            <a class="external pull-left" href="#">
+                                <img class="img-circle" src="assets/images/preview/address/new_shangdu.png" title="新尚都" alt="新尚都" />
+                            </a>
+                            <div class="media-body description">
+                                <p><strong>康乐家政光谷旗舰店</strong></p>
+                                <p class="text-muted"><i class="fa fa-building"></i> 地址：武汉市洪山区珞瑜路光谷广场东世界城新尚都21420室</p>
+                                <p class="text-muted"><i class="fa fa-user"></i> 联系人：庞老师  涂老师</p>
+                                <p class="text-muted"><i class="fa fa-fax"></i> 24小时服务热线：027-87791032</p>
+                                <p class="text-muted"><i class="fa fa-phone"></i> 服务电话：13995680722  13638623778</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="address">
+                        <div class="media">
+                            <a class="external pull-left" href="#">
+                                <img class="img-circle" src="assets/images/preview/address/weilaicheng.png" title="未来城" alt="未来城" />
+                            </a>
+                            <div class="media-body description">
+                                <p><strong>康乐家政街道口店</strong></p>
+                                <p class="text-muted"><i class="fa fa-building"></i> 地址：武汉市洪山区街道口未来城C座1112室</p>
+                                <p class="text-muted"><i class="fa fa-user"></i> 联系人：吴老师</p>
+                                <p class="text-muted"><i class="fa fa-fax"></i> 24小时服务热线：027-87748868</p>
+                                <p class="text-muted"><i class="fa fa-phone"></i> 服务电话：18908648300</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </li>
             <li class="dropdown">
-                <a class="external dropdown-toggle" href="shop-without-drag.html" data-toggle="dropdown">SHOP <i class="fa fa-angle-down"></i></a>
+                <a class="external dropdown-toggle" href="shop-without-drag.html" data-toggle="dropdown">家政资讯 <i class="fa fa-angle-down"></i></a>
                 <ul class="dropdown-menu"><!-- dropdown menu -->
                     <li><a class="external" href="shop-without-drag.html">Shop Without Drag</a></li>
                     <li><a class="external" href="shop-cart.html">Shop Cart</a></li>

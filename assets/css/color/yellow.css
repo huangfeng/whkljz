@@ -13,7 +13,7 @@
 /** 01. Resets
  **************************************************************** **/
 ::selection {
-	background:#d8af0e;
+    background:#d8af0e;
 }
 ::-moz-selection {
 	background:#d8af0e;
@@ -76,11 +76,12 @@ h4.panel-title a {
 
 /** 03. Header
  **************************************************************** **/
+#header ul.nav li.active,
 #header ul.nav li a:hover,
 #header ul.nav li.active a,
 #header ul.nav ul  li.active a,
 #header ul.nav ul  li.active a:hover {
-	color:#d8af0e;
+	color:#d8af0e !important;
 }
 
 

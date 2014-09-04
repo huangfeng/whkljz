@@ -78,6 +78,13 @@ define(["controllers/module"], function(controllers) {
                     }
                 });
             }
+
+            var mobileMenu = $("#mobileMenu");
+            if (mobileMenu) {
+                mobileMenu.click(function() {
+                    $("#navMenu").collapse();
+                });
+            }
         }
     ]);
 });

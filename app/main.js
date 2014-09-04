@@ -15,7 +15,7 @@ require.config({
             "uiRouter": "../assets/plugins/angular-ui/angular-ui-router",
             "uiBootstrap": "../assets/plugins/angular-ui/ui-bootstrap",
             "uiBootstrapTpls": "../assets/plugins/angular-ui/ui-bootstrap-tpls",
-            "twBootstrap": "../assets/plugins/bootstrap/js/bootstrap.min",
+            "twBootstrap": "../assets/plugins/bootstrap/js/bootstrap",
             "jqueryStellar": "../assets/plugins/jquery-stellar/jquery.stellar.min",
             "jqueryVideoBG": "../assets/plugins/jquery-videoBG/jquery.videoBG",
             "jqueryNiceScroll": "../assets/plugins/nicescroll/jquery.nicescroll.min",

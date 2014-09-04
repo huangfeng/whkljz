@@ -7,6 +7,7 @@
 define([
     "./MainController",
     "./layout/NavController",
+    "./layout/FooterController",
     "./home/TitleController",
     "./home/AboutController",
     "./home/ServicesController",

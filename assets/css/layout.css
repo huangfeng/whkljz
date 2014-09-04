@@ -1960,6 +1960,11 @@ section.quote q {
     padding-bottom: 60px;
 }
 
+#footerRights {
+    padding: 22px;
+    font-size: 12px;
+}
+
 /** 17. Responsive
  **************************************************************** **/
 @media only screen and (max-width: 479px) {
@@ -2066,7 +2071,8 @@ section.quote q {
     #home.homeTop {
         min-height: 100% !important;
         max-height: auto !important;
-        display: block;
+        height: 0px !important;
+        display: none  !important;
     }
 
     #home.homeTop img {
@@ -2127,7 +2133,4 @@ section.quote q {
         font-size: 30px;
     }
 
-    #home.homeTop {
-        display: none  !important;
-    }
 }

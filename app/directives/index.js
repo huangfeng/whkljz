@@ -3,7 +3,6 @@
  */
 define([
     "./layout/AppearDirective",
-    "./layout/NiceScrollDirective",
     "./layout/FitVidsDirective",
     "./layout/OnePageNavDirective",
     "./layout/OwlCarouselDirective",

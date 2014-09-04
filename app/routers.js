@@ -52,6 +52,11 @@ define(
                         "contact": {
                             templateUrl: "app/views/home/contact.html",
                             controller: "ContactController"
+                        },
+
+                        "footer": {
+                            templateUrl: "app/views/layout/footer.html",
+                            controller: "FooterController"
                         }
 
                     }

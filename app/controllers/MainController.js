@@ -18,6 +18,18 @@ define(["controllers/module"], function(controllers) {
                     $("#mobileMenu").trigger("click");
                 }
             });
+
+            $(".nicescroll").niceScroll({
+                // background:"#ccc",
+                scrollspeed:60,
+                mousescrollstep:35,
+                cursorborder:0,
+                cursorcolor:"rgba(0,0,0,.6)",
+                horizrailenabled:false,
+                zindex:99999,
+                autohidemode:false,
+                cursorwidth:8
+            });
         }
     ]);
 });

@@ -13,6 +13,9 @@ require.config({
             "jquery": "../assets/plugins/jquery/jquery-1.11.1",
             "angular": "../assets/plugins/angular/angular",
             "uiRouter": "../assets/plugins/angular-ui/angular-ui-router",
+            "uiBootstrap": "../assets/plugins/angular-ui/ui-bootstrap",
+            "uiBootstrapTpls": "../assets/plugins/angular-ui/ui-bootstrap-tpls",
+            "twBootstrap": "../assets/plugins/bootstrap/js/bootstrap.min",
             "jqueryStellar": "../assets/plugins/jquery-stellar/jquery.stellar.min",
             "jqueryVideoBG": "../assets/plugins/jquery-videoBG/jquery.videoBG",
             "jqueryNiceScroll": "../assets/plugins/nicescroll/jquery.nicescroll.min",
@@ -38,6 +41,16 @@ require.config({
             "uiRouter": {
                 deps: ["angular"],
                 exports: "uiRouter"
+            },
+            "uiBootstrap": {
+                deps: ["angular", "jquery"],
+                exports: "uiBootstrap"
+            },
+            "uiBootstrapTpls": {
+                deps: ["angular", "jquery", "uiBootstrap"]
+            },
+            "twBootstrap": {
+                deps: ["jquery"]
             },
             "jqueryStellar":{
                 deps: ["jquery"]

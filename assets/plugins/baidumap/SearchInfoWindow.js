@@ -775,7 +775,7 @@ var BMAPLIB_TAB_SEARCH   = 0, BMAPLIB_TAB_TO_HERE  = 1, BMAPLIB_TAB_FROM_HERE  =
                                 '</li>',
                                 '<li id="BMapLib_transBox' + this.guid + '" style="display:none">',
                                     '<table width="100%" align="center" border=0 cellpadding=0 cellspacing=0>',
-                                        '<tr><td width="30" style="padding-left:8px;"><div id="BMapLib_stationText' + this.guid + '">起点</div></td><td><input id="BMapLib_trans_text' + this.guid + '" class="BMapLib_trans_text" type="text" maxlength="100" autocomplete="off"></td><td width="106" style="padding-left:7px;"><input id="BMapLib_search_bus_btn' + this.guid + '" type="button" value="公交" class="iw_bt" style="margin-right:5px;"><input id="BMapLib_search_drive_btn' + this.guid + '" type="button" class="iw_bt" value="驾车"></td></tr>',
+                                        '<tr><td width="45" style="padding-left:8px;"><div id="BMapLib_stationText' + this.guid + '">起点</div></td><td><input id="BMapLib_trans_text' + this.guid + '" class="BMapLib_trans_text" type="text" maxlength="100" autocomplete="off"></td><td width="106" style="padding-left:7px;"><input id="BMapLib_search_bus_btn' + this.guid + '" type="button" value="公交" class="iw_bt"><input id="BMapLib_search_drive_btn' + this.guid + '" type="button" class="iw_bt" value="驾车"></td></tr>',
                                     '</table>',
                                 '</li>',
                             '</ul>',
@@ -1277,9 +1277,9 @@ var BMAPLIB_TAB_SEARCH   = 0, BMAPLIB_TAB_TO_HERE  = 1, BMAPLIB_TAB_FROM_HERE  =
                         //最后一个tab的宽度
                         var lastWidth  = this._width - (this.tabLength - 1) * (tabWidth + 1);
                         if (baidu.browser.ie == 6) {
-                            tab.style.width = lastWidth - 3 + "px";
+                            tab.style.width = lastWidth - 5 + "px";
                         } else {
-                            tab.style.width = lastWidth + "px";
+                            tab.style.width = lastWidth - 3 + "px";
                         }
                     } else {
                         tab.style.width = tabWidth + "px";

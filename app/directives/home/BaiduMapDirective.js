@@ -17,7 +17,7 @@ define(["directives/module"], function(app) {
             var guangguInfoWindow = null;
             guangguInfoWindow = new BMapLib.SearchInfoWindow(map, guangguDetail, {
                 title  : "康乐家政光谷旗舰店",      //标题
-                width  : 290,             //宽度
+                width  : 305,             //宽度
                 height : 105,              //高度
                 panel  : "panel",         //检索结果面板
                 enableAutoPan : true,     //自动平移
@@ -40,7 +40,7 @@ define(["directives/module"], function(app) {
             var jiedaokouInfoWindow = null;
             jiedaokouInfoWindow = new BMapLib.SearchInfoWindow(map, jiedaokouDetail, {
                 title  : "康乐家政街道口店",      //标题
-                width  : 290,             //宽度
+                width  : 305,             //宽度
                 height : 105,              //高度
                 panel  : "panel",         //检索结果面板
                 enableAutoPan : true,     //自动平移

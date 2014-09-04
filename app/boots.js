@@ -5,6 +5,7 @@ define([
     "require",
     "angular",
     "jquery",
+    "twBootstrap",
     "jqueryStellar",
     "jqueryVideoBG",
     "jqueryNiceScroll",

@@ -23,109 +23,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ContactController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/home/ContactController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layout/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-69.21429" vertical-offset="0" max-vertical-offset="2090">
-              <caret line="102" column="20" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="20" />
+            <state vertical-scroll-proportion="-11.535714" vertical-offset="57" max-vertical-offset="2090">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1729">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#45#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.321428" vertical-offset="715" max-vertical-offset="1368">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaiduMapDirective.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BaiduMapDirective.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/directives/home/BaiduMapDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2857143" vertical-offset="114" max-vertical-offset="1577">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1577">
+              <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
-                <marker date="1409736526498" expanded="false" signature="577:615" placeholder="..." />
-                <marker date="1409736526498" expanded="false" signature="709:785" placeholder="..." />
-                <marker date="1409736526498" expanded="true" signature="1887:1925" placeholder="..." />
-                <marker date="1409736526498" expanded="true" signature="2019:2095" placeholder="..." />
+                <marker date="1409790792382" expanded="false" signature="577:615" placeholder="..." />
+                <marker date="1409790792382" expanded="false" signature="709:785" placeholder="..." />
+                <marker date="1409790792382" expanded="true" signature="1887:1925" placeholder="..." />
+                <marker date="1409790792382" expanded="true" signature="2019:2095" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="SearchInfoWindow.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/plugins/baidumap/SearchInfoWindow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.857142" vertical-offset="303" max-vertical-offset="969">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+            <state vertical-scroll-proportion="-2.64" vertical-offset="1701" max-vertical-offset="4313">
+              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/directives/index.js">
+      <file leaf-file-name="SearchInfoWindow.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/plugins/baidumap/SearchInfoWindow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountToDirective.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/directives/home/CountToDirective.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+            <state vertical-scroll-proportion="-17.08" vertical-offset="23912" max-vertical-offset="36404">
+              <caret line="1281" column="60" selection-start-line="1281" selection-start-column="60" selection-end-line="1281" selection-end-column="60" />
               <folding>
-                <element signature="e#0#44#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1409791003611" expanded="false" signature="28252:28269" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="28422:28439" placeholder="..." />
+                <marker date="1409791003611" expanded="true" signature="28912:28929" placeholder="..." />
+                <marker date="1409791003611" expanded="true" signature="29145:29162" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="52255:52284" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="54086:54099" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="54247:54262" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="54339:54354" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="54762:54775" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="55345:55380" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="56061:56133" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="56248:56313" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="56735:56750" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="56977:56988" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="57175:57188" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="57403:57416" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="57489:57502" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="57544:57562" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="58009:58021" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="58154:58173" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="58470:58483" placeholder="..." />
+                <marker date="1409791003611" expanded="false" signature="70695:70711" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,8 +106,42 @@
       <file leaf-file-name="nav.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layout/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.071428" vertical-offset="544" max-vertical-offset="1653">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="51" selection-end-column="34" />
+            <state vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="1653">
+              <caret line="6" column="82" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boots.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/boots.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68994415" vertical-offset="0" max-vertical-offset="716">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1976">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/MainController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -150,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/services/index.js" />
         <option value="$PROJECT_DIR$/app/services/module.js" />
         <option value="$PROJECT_DIR$/app/roots.js" />
         <option value="$PROJECT_DIR$/app/controllers/HeaderController.js" />
@@ -180,35 +186,36 @@
         <option value="$PROJECT_DIR$/app/controllers/home/GuideController.js" />
         <option value="$PROJECT_DIR$/assets/plugins/jquery-owl-carousel/owl.carousel.css" />
         <option value="$PROJECT_DIR$/app/directives/layout/OwlCarouselDirective.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/MainController.js" />
         <option value="$PROJECT_DIR$/app/directives/layout/StellarDirective.js" />
         <option value="$PROJECT_DIR$/app/controllers/home/TeamController.js" />
         <option value="$PROJECT_DIR$/app/views/home/guide.html" />
         <option value="$PROJECT_DIR$/app/views/home/team.html" />
-        <option value="$PROJECT_DIR$/app/views/layout/main.html" />
         <option value="$PROJECT_DIR$/assets/css/layout.css" />
         <option value="$PROJECT_DIR$/assets/plugins/jquery-onepage-nav/jquery.nav.min.js" />
         <option value="$PROJECT_DIR$/assets/plugins/jquery-onepage-nav/jquery.nav.js" />
         <option value="$PROJECT_DIR$/assets/css/color/yellow.css" />
-        <option value="$PROJECT_DIR$/app/views/layout/nav.html" />
-        <option value="$PROJECT_DIR$/app/boots.js" />
         <option value="$PROJECT_DIR$/app/routers.js" />
         <option value="$PROJECT_DIR$/app/controllers/home/ContactController.js" />
         <option value="$PROJECT_DIR$/app/controllers/index.js" />
         <option value="$PROJECT_DIR$/app/directives/index.js" />
         <option value="$PROJECT_DIR$/app/views/home/contact.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/main.js" />
         <option value="$PROJECT_DIR$/app/directives/home/BaiduMapDirective.js" />
+        <option value="$PROJECT_DIR$/assets/plugins/baidumap/SearchInfoWindow.js" />
+        <option value="$PROJECT_DIR$/app/views/layout/main.html" />
+        <option value="$PROJECT_DIR$/app/views/layout/nav.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/main.js" />
+        <option value="$PROJECT_DIR$/app/boots.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-75" />
-    <option name="y" value="259" />
-    <option name="width" value="1600" />
-    <option name="height" value="860" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -290,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-onepage-nav" />
+              <option name="myItemId" value="angular-ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,46 +312,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whkljz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whkljz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whkljz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whkljz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="color" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -615,14 +582,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-75" y="259" width="1600" height="860" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24952015" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24699177" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -657,40 +624,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/preview/video/ink.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="67013">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/home/VideoBgDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
@@ -869,14 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/layout/StellarDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
@@ -884,14 +809,6 @@
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,16 +870,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
           <caret line="0" column="1068" selection-start-line="0" selection-start-column="1173" selection-end-line="0" selection-end-column="1179" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/boots.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,19 +940,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout/main.html">
+    <entry file="file://$PROJECT_DIR$/app/directives/home/CountToDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-69.21429" vertical-offset="0" max-vertical-offset="2090">
-          <caret line="102" column="20" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.071428" vertical-offset="544" max-vertical-offset="1653">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="51" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,36 +973,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/baidumap/SearchInfoWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.08" vertical-offset="23912" max-vertical-offset="36404">
+          <caret line="1281" column="60" selection-start-line="1281" selection-start-column="60" selection-end-line="1281" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1409791003611" expanded="false" signature="28252:28269" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="28422:28439" placeholder="..." />
+            <marker date="1409791003611" expanded="true" signature="28912:28929" placeholder="..." />
+            <marker date="1409791003611" expanded="true" signature="29145:29162" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="52255:52284" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="54086:54099" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="54247:54262" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="54339:54354" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="54762:54775" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="55345:55380" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="56061:56133" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="56248:56313" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="56735:56750" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="56977:56988" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="57175:57188" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="57403:57416" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="57489:57502" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="57544:57562" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="58009:58021" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="58154:58173" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="58470:58483" placeholder="..." />
+            <marker date="1409791003611" expanded="false" signature="70695:70711" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layout/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714" vertical-offset="57" max-vertical-offset="2090">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14481707" vertical-offset="0" max-vertical-offset="656">
+          <caret line="5" column="6553" selection-start-line="5" selection-start-column="6547" selection-end-line="5" selection-end-column="6553" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layout/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="1653">
+          <caret line="6" column="82" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/angular-ui/ui-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="63650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/baidumap/SearchInfoWindow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.64" vertical-offset="1701" max-vertical-offset="4313">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/home/BaiduMapDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1577">
+          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+            <marker date="1409790792382" expanded="false" signature="577:615" placeholder="..." />
+            <marker date="1409790792382" expanded="false" signature="709:785" placeholder="..." />
+            <marker date="1409790792382" expanded="true" signature="1887:1925" placeholder="..." />
+            <marker date="1409790792382" expanded="true" signature="2019:2095" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1729">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1976">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="25" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/directives/home/CountToDirective.js">
+    <entry file="file://$PROJECT_DIR$/app/boots.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.68994415" vertical-offset="0" max-vertical-offset="716">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/directives/home/BaiduMapDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143" vertical-offset="114" max-vertical-offset="1577">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-            <marker date="1409736526498" expanded="false" signature="577:615" placeholder="..." />
-            <marker date="1409736526498" expanded="false" signature="709:785" placeholder="..." />
-            <marker date="1409736526498" expanded="true" signature="1887:1925" placeholder="..." />
-            <marker date="1409736526498" expanded="true" signature="2019:2095" placeholder="..." />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>

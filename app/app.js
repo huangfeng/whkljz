@@ -7,6 +7,7 @@ define(
     [
         "angular",
         "uiRouter",
+        "uiBootstrap",
         "controllers/index",
 //        "services/index",
         "directives/index"
@@ -17,7 +18,9 @@ define(
             "app.controllers",
 //            "app.services",
             "app.directives",
-            "ui.router"
+            "ui.router",
+            "ui.bootstrap"
+
         ]);
 
     }

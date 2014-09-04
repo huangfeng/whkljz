@@ -28,6 +28,7 @@ require.config({
             "jqueryOwlCarousel": "../assets/plugins/jquery-owl-carousel/owl.carousel.min",
             "baiduMap": "../assets/plugins/baidumap/baiduMap",
             "baiduMapSearchInfoWindow": "../assets/plugins/baidumap/SearchInfoWindow",
+            "baiduMapTrafficControl": "../assets/plugins/baidumap/TrafficControl",
             "library": "../assets/plugin"
         },
 
@@ -87,8 +88,10 @@ require.config({
             },
             "baiduMapSearchInfoWindow": {
                 deps: ["baiduMap"]
+            },
+            "baiduMapTrafficControl": {
+                deps: ["baiduMap"]
             }
-
         },
 
         priority: [

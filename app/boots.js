@@ -18,6 +18,7 @@ define([
     "jqueryOwlCarousel",
     "baiduMap",
     "baiduMapSearchInfoWindow",
+    "baiduMapTrafficControl",
     "app",
     "routers"
 ], function (require, ng) {

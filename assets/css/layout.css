@@ -630,6 +630,10 @@ h4.panel-title a i {
     display: none;
 }
 
+#callme {
+    display: none;
+}
+
 #header ul.nav li {
     margin-left: 5px;
 }
@@ -707,8 +711,9 @@ h4.panel-title a i {
 }
 
 .address {
-    width: 400px;
+    width: 350px;
     border-bottom: 1px solid #eee;
+    padding-right: 5px !important;
 }
 
 .address a {
@@ -2011,6 +2016,13 @@ section.quote q {
         text-align: right;
     }
 
+    #callme {
+        display: block;
+        height: 50px;
+        font-size: 24px;
+        text-align: center;
+    }
+
     /* end top menu */
     #header nav,
     #header nav ul li,
@@ -2044,7 +2056,7 @@ section.quote q {
     #home.homeTop {
         min-height: 100% !important;
         max-height: auto !important;
-        display: block !important;
+        display: block;
     }
 
     #home.homeTop img {
@@ -2103,5 +2115,9 @@ section.quote q {
 
     .page-name .name {
         font-size: 30px;
+    }
+
+    #home.homeTop {
+        display: none  !important;
     }
 }

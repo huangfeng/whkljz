@@ -333,6 +333,7 @@ var BMAPLIB_TAB_SEARCH   = 0, BMAPLIB_TAB_TO_HERE  = 1, BMAPLIB_TAB_FROM_HERE  =
         this._opts._panel         = opts.panel || null;
         this._opts._searchTypes   = opts.searchTypes; //传入数组形式
         this._opts.enableSendToPhone = opts.enableSendToPhone; //是否开启发送到手机
+        this._opts.afterBtnClick = opts.afterBtnClick;
     }
     SearchInfoWindow.prototype = new BMap.Overlay();
     SearchInfoWindow.prototype.initialize = function(map) {
@@ -782,7 +783,7 @@ var BMAPLIB_TAB_SEARCH   = 0, BMAPLIB_TAB_TO_HERE  = 1, BMAPLIB_TAB_FROM_HERE  =
                         '</div>',
                     '</div>',
                     '<div class="BMapLib_bubble_bottom"></div>',
-                    '<img src="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/iw_tail.png" width="58" height="31" alt="" class="BMapLib_trans" id="BMapLib_trans' + this.guid + '" style="left:144px;"/>'
+                    '<img src="assets/plugins/baidumap/iw_tail.png" width="58" height="31" alt="" class="BMapLib_trans" id="BMapLib_trans' + this.guid + '" style="left:144px;"/>'
                 ];
                 div.innerHTML = template.join("");
                 this._div = div;
@@ -985,6 +986,7 @@ var BMAPLIB_TAB_SEARCH   = 0, BMAPLIB_TAB_TO_HERE  = 1, BMAPLIB_TAB_FROM_HERE  =
             //公交检索按钮
             baidu.on(this.dom.busBtn, "click", function(e) {
                 me._transitRouteAction(me.transitRoute);
+                me._opts.afterBtnClick && me._opts.afterBtnClick();
             });
 
             baidu.on(this.dom.busBtn, "touchstart", function(e) {
@@ -994,6 +996,7 @@ var BMAPLIB_TAB_SEARCH   = 0, BMAPLIB_TAB_TO_HERE  = 1, BMAPLIB_TAB_FROM_HERE  =
             //驾车检索按钮
             baidu.on(this.dom.driveBtn, "click", function(e) {
                 me._transitRouteAction(me.drivingRoute);
+                me._opts.afterBtnClick && me._opts.afterBtnClick();
             });
 
             baidu.on(this.dom.driveBtn, "touchstart", function(e) {

@@ -6,9 +6,39 @@
 define(["directives/module"], function(app) {
     return app.directive("baiduMap", [function() {
         return function(scope, element, attrs) {
+            scope.clearSearchInfo = function() {
+                $("#panel").html("");
+                map.clearOverlays();
+
+                map.addOverlay(guanggu);              // 将标注添加到地图中
+                var label = new BMap.Label("康乐家政光谷旗舰店",{offset:new BMap.Size(10,-10)});
+                guanggu.setLabel(label);
+
+                map.addOverlay(jiedaokou);              // 将标注添加到地图中
+                label = new BMap.Label("康乐家政街道口店",{offset:new BMap.Size(10,-10)});
+                jiedaokou.setLabel(label);
+            };
+
+            scope.showPanel = function() {
+                isPanelShow = true;
+                $("#showPanelBtn").css("right","300px");
+                $("#panelWrap").css("width", "300px");
+                $("#map").css("margin-right","300px");
+                $("#showPanelBtn").html("隐藏检索结果面板<br/><i class='fa fa-angle-double-right'></i>");
+            };
+
             var map = new BMap.Map('map');
+            var mapType1 = new BMap.MapTypeControl({mapTypes: [BMAP_NORMAL_MAP,BMAP_HYBRID_MAP]});
+            var trafficCtrl = new BMapLib.TrafficControl({
+                showPanel: false //是否显示路况提示面板
+            });
+
+            map.addControl(mapType1);          //2D图，卫星图
+            mapType1.setAnchor(BMAP_ANCHOR_TOP_LEFT);
+            map.addControl(trafficCtrl);
+            trafficCtrl.setAnchor(BMAP_ANCHOR_BOTTOM_RIGHT);
             map.addControl(new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}));  //右上角，仅包含平移和缩放按钮
-            map.centerAndZoom(new BMap.Point(114.387094, 30.516876),14);  //初始化时，即可设置中心点和地图缩放级别。
+            map.centerAndZoom(new BMap.Point(114.391092, 30.521908),14);  //初始化时，即可设置中心点和地图缩放级别。
             map.enableScrollWheelZoom();
 
             var guangguDetail = '<div style="margin:0;line-height:20px;padding:2px;">' +
@@ -24,9 +54,10 @@ define(["directives/module"], function(app) {
                 searchTypes   :[
                     BMAPLIB_TAB_TO_HERE,  //到这里去
                     BMAPLIB_TAB_FROM_HERE //从这里出发
-                ]
+                ],
+                afterBtnClick : scope.showPanel
             });
-            var guanggu = new BMap.Marker(new BMap.Point(114.408797, 30.510109));  // 创建标注
+            var guanggu = new BMap.Marker(new BMap.Point(114.412822, 30.51203));  // 创建标注
             guanggu.addEventListener("click", function(e){
                 guangguInfoWindow.open(guanggu);
             });
@@ -47,7 +78,8 @@ define(["directives/module"], function(app) {
                 searchTypes   :[
                     BMAPLIB_TAB_TO_HERE,  //到这里去
                     BMAPLIB_TAB_FROM_HERE //从这里出发
-                ]
+                ],
+                afterBtnClick : scope.showPanel
             });
             var jiedaokou = new BMap.Marker(new BMap.Point(114.359974,30.531505));  // 创建标注
             jiedaokou.addEventListener("click", function(e){
@@ -65,16 +97,16 @@ define(["directives/module"], function(app) {
                     $("#showPanelBtn").css("right","300px");
                     $("#panelWrap").css("width", "300px");
                     $("#map").css("margin-right","300px");
-                    $("#showPanelBtn").html("隐藏检索结果面板<br/>&gt;");
+                    $("#showPanelBtn").html("隐藏检索结果面板<br/><i class='fa fa-angle-double-right'></i>");
                 } else {
                     isPanelShow = false;
+                    scope.clearSearchInfo();
                     $("#showPanelBtn").css("right","0");
                     $("#panelWrap").css("width", "0px");
                     $("#map").css("margin-right","0");
-                    $("#showPanelBtn").html("显示检索结果面板<br/>&lt;");
+                    $("#showPanelBtn").html("显示检索结果面板<br/><i class='fa fa-angle-double-left'></i>");
                 }
             });
-
         };
     }]);
 });

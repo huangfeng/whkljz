@@ -23,31 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/team.html">
+      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.857142" vertical-offset="456" max-vertical-offset="1178">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.5496296" vertical-offset="712" max-vertical-offset="1387">
+              <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guide.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/guide.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.464286" vertical-offset="247" max-vertical-offset="1273">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7256637" vertical-offset="31390" max-vertical-offset="40641">
-              <caret line="1678" column="20" selection-start-line="1678" selection-start-column="20" selection-end-line="1678" selection-end-column="20" />
+            <state vertical-scroll-proportion="-12.84" vertical-offset="18926" max-vertical-offset="40641">
+              <caret line="1013" column="1" selection-start-line="1013" selection-start-column="1" selection-end-line="1013" selection-end-column="1" />
               <folding>
                 <element signature="e#6110#8255#1" expanded="true" />
                 <element signature="e#9755#11900#1" expanded="true" />
@@ -120,11 +115,11 @@
         <option value="$PROJECT_DIR$/app/main.js" />
         <option value="$PROJECT_DIR$/app/boots.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/views/home/contact.html" />
         <option value="$PROJECT_DIR$/assets/plugins/baidumap/SearchInfoWindow.js" />
         <option value="$PROJECT_DIR$/app/directives/home/BaiduMapDirective.js" />
         <option value="$PROJECT_DIR$/app/views/home/team.html" />
         <option value="$PROJECT_DIR$/assets/css/layout.css" />
+        <option value="$PROJECT_DIR$/app/views/home/contact.html" />
       </list>
     </option>
   </component>
@@ -967,19 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5911111" vertical-offset="342" max-vertical-offset="1368">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3614814" vertical-offset="1323" max-vertical-offset="2432">
@@ -998,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.857142" vertical-offset="456" max-vertical-offset="1178">
+        <state vertical-scroll-proportion="-0.44186047" vertical-offset="456" max-vertical-offset="1178">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
@@ -1006,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7256637" vertical-offset="31390" max-vertical-offset="40641">
-          <caret line="1678" column="20" selection-start-line="1678" selection-start-column="20" selection-end-line="1678" selection-end-column="20" />
+        <state vertical-scroll-proportion="-12.84" vertical-offset="18926" max-vertical-offset="40641">
+          <caret line="1013" column="1" selection-start-line="1013" selection-start-column="1" selection-end-line="1013" selection-end-column="1" />
           <folding>
             <element signature="e#6110#8255#1" expanded="true" />
             <element signature="e#9755#11900#1" expanded="true" />
@@ -1019,6 +1001,19 @@
             <element signature="e#37903#40048#1" expanded="true" />
             <element signature="e#46025#49814#1" expanded="true" />
             <element signature="e#51130#57259#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5496296" vertical-offset="712" max-vertical-offset="1387">
+          <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

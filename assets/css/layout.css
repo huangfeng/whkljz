@@ -1665,6 +1665,16 @@ a.portfolioClose {
     border-radius: 6px;
 }
 
+.teams .team .top-image {
+    display: block;
+    overflow: hidden;
+    height: 200px;
+    width: 208px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
 .owl-carousel.column img {
     max-width: 100%;
     height: auto;

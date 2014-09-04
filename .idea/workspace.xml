@@ -22,7 +22,49 @@
     <favorites_list name="whkljz" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="10.857142" vertical-offset="456" max-vertical-offset="1178">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guide.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/guide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.464286" vertical-offset="247" max-vertical-offset="1273">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7256637" vertical-offset="31390" max-vertical-offset="40641">
+              <caret line="1678" column="20" selection-start-line="1678" selection-start-column="20" selection-end-line="1678" selection-end-column="20" />
+              <folding>
+                <element signature="e#6110#8255#1" expanded="true" />
+                <element signature="e#9755#11900#1" expanded="true" />
+                <element signature="e#20968#24757#1" expanded="true" />
+                <element signature="e#27759#28010#2" expanded="true" />
+                <element signature="e#29529#29942#1" expanded="true" />
+                <element signature="e#33828#34079#2" expanded="true" />
+                <element signature="e#36678#37091#1" expanded="true" />
+                <element signature="e#37903#40048#1" expanded="true" />
+                <element signature="e#46025#49814#1" expanded="true" />
+                <element signature="e#51130#57259#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -65,7 +107,6 @@
         <option value="$PROJECT_DIR$/app/directives/layout/StellarDirective.js" />
         <option value="$PROJECT_DIR$/app/controllers/home/TeamController.js" />
         <option value="$PROJECT_DIR$/app/views/home/guide.html" />
-        <option value="$PROJECT_DIR$/app/views/home/team.html" />
         <option value="$PROJECT_DIR$/assets/plugins/jquery-onepage-nav/jquery.nav.min.js" />
         <option value="$PROJECT_DIR$/assets/plugins/jquery-onepage-nav/jquery.nav.js" />
         <option value="$PROJECT_DIR$/assets/css/color/yellow.css" />
@@ -75,7 +116,6 @@
         <option value="$PROJECT_DIR$/app/directives/index.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/views/layout/nav.html" />
-        <option value="$PROJECT_DIR$/assets/css/layout.css" />
         <option value="$PROJECT_DIR$/app/views/layout/main.html" />
         <option value="$PROJECT_DIR$/app/main.js" />
         <option value="$PROJECT_DIR$/app/boots.js" />
@@ -83,6 +123,8 @@
         <option value="$PROJECT_DIR$/app/views/home/contact.html" />
         <option value="$PROJECT_DIR$/assets/plugins/baidumap/SearchInfoWindow.js" />
         <option value="$PROJECT_DIR$/app/directives/home/BaiduMapDirective.js" />
+        <option value="$PROJECT_DIR$/app/views/home/team.html" />
+        <option value="$PROJECT_DIR$/assets/css/layout.css" />
       </list>
     </option>
   </component>
@@ -454,13 +496,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24699177" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24699177" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -662,22 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/guide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="1273">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.5" vertical-offset="525" max-vertical-offset="1178">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home/TeamController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
@@ -727,14 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.13476263" vertical-offset="107" max-vertical-offset="988">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.82143" vertical-offset="1323" max-vertical-offset="2432">
-          <caret line="118" column="30" selection-start-line="75" selection-start-column="0" selection-end-line="118" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -855,25 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40560472" vertical-offset="13310" max-vertical-offset="40451">
-          <caret line="715" column="33" selection-start-line="715" selection-start-column="33" selection-end-line="715" selection-end-column="33" />
-          <folding>
-            <element signature="e#6110#8255#1" expanded="true" />
-            <element signature="e#9755#11900#1" expanded="true" />
-            <element signature="e#20968#24757#1" expanded="true" />
-            <element signature="e#27759#28010#2" expanded="true" />
-            <element signature="e#29529#29942#1" expanded="true" />
-            <element signature="e#33828#34079#2" expanded="true" />
-            <element signature="e#36678#37091#1" expanded="true" />
-            <element signature="e#37903#40048#1" expanded="true" />
-            <element signature="e#45829#49618#1" expanded="true" />
-            <element signature="e#50934#57063#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layout/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-74.64286" vertical-offset="0" max-vertical-offset="2204">
@@ -977,6 +976,49 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3614814" vertical-offset="1323" max-vertical-offset="2432">
+          <caret line="118" column="30" selection-start-line="75" selection-start-column="0" selection-end-line="118" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.464286" vertical-offset="247" max-vertical-offset="1273">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.857142" vertical-offset="456" max-vertical-offset="1178">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7256637" vertical-offset="31390" max-vertical-offset="40641">
+          <caret line="1678" column="20" selection-start-line="1678" selection-start-column="20" selection-end-line="1678" selection-end-column="20" />
+          <folding>
+            <element signature="e#6110#8255#1" expanded="true" />
+            <element signature="e#9755#11900#1" expanded="true" />
+            <element signature="e#20968#24757#1" expanded="true" />
+            <element signature="e#27759#28010#2" expanded="true" />
+            <element signature="e#29529#29942#1" expanded="true" />
+            <element signature="e#33828#34079#2" expanded="true" />
+            <element signature="e#36678#37091#1" expanded="true" />
+            <element signature="e#37903#40048#1" expanded="true" />
+            <element signature="e#46025#49814#1" expanded="true" />
+            <element signature="e#51130#57259#1" expanded="true" />
           </folding>
         </state>
       </provider>

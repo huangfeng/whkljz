@@ -21,9 +21,9 @@ define(["directives/module"], function(app) {
 
             scope.showPanel = function() {
                 isPanelShow = true;
-                $("#showPanelBtn").css("right","300px");
-                $("#panelWrap").css("width", "300px");
-                $("#map").css("margin-right","300px");
+                $("#showPanelBtn").css("right","250px");
+                $("#panelWrap").css("width", "250px");
+                $("#map").css("margin-right","250px");
                 $("#showPanelBtn").html("隐藏检索结果面板<br/><i class='fa fa-angle-double-right'></i>");
             };
 
@@ -94,9 +94,9 @@ define(["directives/module"], function(app) {
             $("#showPanelBtn").click(function(){
                 if (isPanelShow == false) {
                     isPanelShow = true;
-                    $("#showPanelBtn").css("right","300px");
-                    $("#panelWrap").css("width", "300px");
-                    $("#map").css("margin-right","300px");
+                    $("#showPanelBtn").css("right","250px");
+                    $("#panelWrap").css("width", "250px");
+                    $("#map").css("margin-right","250px");
                     $("#showPanelBtn").html("隐藏检索结果面板<br/><i class='fa fa-angle-double-right'></i>");
                 } else {
                     isPanelShow = false;

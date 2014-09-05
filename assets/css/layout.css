@@ -625,6 +625,10 @@ h4.panel-title a i {
     box-shadow: #fff 0 0 6px;
 }
 
+#scollToHome {
+    height: 58px;
+}
+
 /* MAIN MENU */
 #mobileMenu {
     display: none;
@@ -706,8 +710,9 @@ h4.panel-title a i {
 
 .logo {
     font-family: 'kangle-logo';
-    font-size: 40px;
+    font-size: 38px;
     float: left;
+    height: 58px;
 }
 
 .address {

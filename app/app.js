@@ -9,14 +9,14 @@ define(
         "uiRouter",
         "uiBootstrap",
         "controllers/index",
-//        "services/index",
+        "services/index",
         "directives/index"
     ]
     ,function(ng) {
 
         return ng.module("app", [
             "app.controllers",
-//            "app.services",
+            "app.services",
             "app.directives",
             "ui.router",
             "ui.bootstrap"

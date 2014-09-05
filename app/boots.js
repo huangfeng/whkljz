@@ -16,6 +16,7 @@ define([
     "jqueryAppear",
     "jqueryCountTo",
     "jqueryOwlCarousel",
+    "jqueryPrettyPhoto",
     "baiduMap",
     "baiduMapSearchInfoWindow",
     "baiduMapTrafficControl",

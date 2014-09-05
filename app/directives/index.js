@@ -7,6 +7,7 @@ define([
     "./layout/OnePageNavDirective",
     "./layout/OwlCarouselDirective",
     "./layout/StellarDirective",
+    "./layout/PrettyPhotoDirective",
     "./home/CountToDirective",
     "./home/VideoBgDirective",
     "./home/BaiduMapDirective"

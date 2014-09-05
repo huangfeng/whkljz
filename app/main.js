@@ -26,6 +26,7 @@ require.config({
             "jqueryAppear": "../assets/plugins/jquery-appear/jquery.appear",
             "jqueryCountTo": "../assets/plugins/jquery-countTo/jquery.countTo",
             "jqueryOwlCarousel": "../assets/plugins/jquery-owl-carousel/owl.carousel.min",
+            "jqueryPrettyPhoto": "../assets/plugins/prettyPhoto/js/jquery.prettyPhoto.min",
             "baiduMap": "../assets/plugins/baidumap/baiduMap",
             "baiduMapSearchInfoWindow": "../assets/plugins/baidumap/SearchInfoWindow",
             "baiduMapTrafficControl": "../assets/plugins/baidumap/TrafficControl",
@@ -81,6 +82,9 @@ require.config({
                 deps: ["jquery"]
             },
             "jqueryOwlCarousel": {
+                deps: ["jquery"]
+            },
+            "jqueryPrettyPhoto": {
                 deps: ["jquery"]
             },
             "baiduMap": {

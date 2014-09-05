@@ -3,7 +3,7 @@
  */
 "use strict";
 
-define(["controllers/module"], function(controllers) {
+define(["../module"], function(controllers) {
 
     return controllers.controller("MainController", ["$rootScope",
         function ($rootScope) {

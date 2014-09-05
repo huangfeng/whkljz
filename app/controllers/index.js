@@ -5,7 +5,8 @@
  * which avails each controller of, for example, the `config` constants object.
  **/
 define([
-    "./MainController",
+    "./layout/MainController",
+    "./layout/ServiceDetailController",
     "./layout/NavController",
     "./layout/FooterController",
     "./home/TitleController",

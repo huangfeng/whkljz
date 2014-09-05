@@ -16,6 +16,11 @@ define(
                     url: "/main",
                     templateUrl: "app/views/layout/main.html",
                     controller: "MainController"
+                }).state("services", {
+                    abstract: true,
+                    url: "/services",
+                    templateUrl: "app/views/layout/services.html",
+                    controller: "ServiceDetailController"
                 }).state("main.home", {
                     url: "/home",
                     views: {
@@ -58,7 +63,6 @@ define(
                             templateUrl: "app/views/layout/footer.html",
                             controller: "FooterController"
                         }
-
                     }
 
                 });
